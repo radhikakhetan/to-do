@@ -1,0 +1,40 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "a todo app using redux and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radhikakhetan/to-do.git"
+  },
+  "keywords": [
+    "todo",
+    "react",
+    "redux"
+  ],
+  "author": "Radhika Khetan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radhikakhetan/to-do/issues"
+  },
+  "homepage": "https://github.com/radhikakhetan/to-do",
+  "dependencies": {
+    "immutable": "^3.7.5",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18"
+  }
+}
